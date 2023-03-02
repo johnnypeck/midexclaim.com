@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midexclaim</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #FFC107 0%, #FFC107 50%, #2980B9 50%, #2980B9 100%);
+            background-size: cover;
+            background-position: center;
+            font-family: 'Poppins', sans-serif;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: calc(100% - 60px);
+            /* Subtracting height of footer */
+        }
+
+        .heading {
+            font-size: 4rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-family: 'Fredoka One', cursive;
+            position: relative;
+            top: -12px;
+        }
+
+        .sub-heading {
+            font-size: 1.5rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-family: 'Fredoka One', cursive;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .heading {
+                font-size: 3rem;
+                top: -8px;
+            }
+
+            .sub-heading {
+                font-size: 1rem;
+            }
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #222;
+            color: #fff;
+            height: 60px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 12px;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .footer a:hover {
+            color: #FFC107;
+        }
+
+        .footer span {
+            margin-right: 5px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Midexclaim</h1>
+        <h2 class="sub-heading">Bi-polar punctuation is a disease.</h2>
+    </div>
+    <footer class="footer">
+        <span>&copy; 2023 Midexclaim</span>
+        <a href="https://github.com/johnnypeck/midexclaim.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#FFF" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.111.818-.26.818-.577 0-.285-.01-1.04-.015-2.04-3.075-.28.218-.54.447-.77 1.528-1.527 4.033-1.527 5.56 0 .23.23.372.49.447.77.066.256.1.52.1 2.27v.77c-3.14.69-3.805 1.51-3.805 2.43v1.77c0 .68.61 1.51 1.85 1.51 1.09 0 1.86-.68 1.86-1.51v-1.77c0-.22-.015-.44-.07-.65-.015-.11-.06-.23-.11-.34 0 0-.96-.57-2.49-.68-.77-.06-1.62-.09-2.45-.09-.83 0-1.68.03-2.45.09-1.53.11-2.49.68-2.49.68-.05.11-.09.23-.11.34-.06.21-.07.43-.07.65v1.77c0 .84.665 1.51 1.86 1.51 1.24 0 1.85-.83 1.85-1.51v-1.77c0-.92-.67-1.74-3.81-2.44v-.77c0-.84.28-1.62.85-2.27-.556-.17-1.141-.26-1.735-.26-.59 0-1.174.09-1.735.26.526.65.834 1.43.834 2.27v.77c0 .92-.548 1.76-1.81 2.42C3.437 21.8 0 17.3 0 12c0-6.627 5.373-12 12-12s12 5.373 12 12c0 5.303-3.436 9.803-8.203 11.39z"/></svg></a>
+	</footer>
+</body>
+</html>
